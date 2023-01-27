@@ -5,6 +5,7 @@ pac<-function(x){
   data.frame(
     sum = sum(x),
     median = median(x),
-    mean = mean(x)
+    mean = mean(x),
+    quantile = quantile(x)
     )
 }
