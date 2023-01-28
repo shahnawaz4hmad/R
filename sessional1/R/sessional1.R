@@ -6,7 +6,7 @@ ses <- function(x){
     min=min(x),
     max=max(x),
     sum=sum(x),
-    median=median(x),
-    mean=mean(x)
+    mean=mean(x),
+    median=median(x)
       )
 }
